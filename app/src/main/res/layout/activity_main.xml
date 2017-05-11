@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.uv.students.mobiledevices.sensorrecorder.MainActivity">
+
+    <Button
+        android:id="@+id/main_showAccelerometerBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_show_accelerometer" />
+
+    <Button
+        android:id="@+id/main_showGyroscopeBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_show_gyroscope" />
+
+    <Button
+        android:id="@+id/main_showMagneticFieldBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_show_magnetic_field" />
+
+    <Button
+        android:id="@+id/main_showRecordingsBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Show Recordings" />
+
+    <Button
+        android:id="@+id/main_recordBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/main_record"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/main_infoTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

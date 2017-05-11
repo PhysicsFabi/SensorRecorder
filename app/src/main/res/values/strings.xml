@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sensor Recorder</string>
+    <string name="error_missing_sensors">Not all sensors are present.</string>
+    <string name="main_record">Record</string>
+    <string name="main_recording">Recording...</string>
+    <string name="main_stop">Stop</string>
+    <string name="main_show_accelerometer">Show Accelerometer</string>
+    <string name="main_show_gyroscope">Show Gyroscope</string>
+    <string name="main_show_magnetic_field">Show Magnetic Field</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="gyroscope">Gyroscope</string>
+    <string name="magnetic_field">Magnetic Field</string>
+    <string name="title_activity_file_list">Recordings</string>
+    <string name="error_file_system">ERROR: The file system can not be initialized</string>
+    <string name="error_permissions">ERROR: Not all needed permissions were granted.</string>
+</resources>
